@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding-top: 10px;
+}
+body{
+    font-family: Ubuntu;
+}
+.main{
+    margin-top: 20px;
+    background: #FFFEF9;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.header_logo{
+    border-radius: 100%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.header_right{
+    gap: 20px;
+    display: flex;
+}
+.button_header{
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF00;
+    border: 1px solid #D23669;
+    width: 93px;
+    height: 30.933px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_item{
+    color: #D23669;
+    
+    font-size: 12px;
+}
+
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+article{
+    background-color: #E8E8E8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.article_item{
+    display: flex;
+    flex-direction: column;
+    padding:10px 42px 42px 24px;
+    gap: 5px;
+}
+.article_title{
+    color: red;
+    font-size: 20px;
+}
+.article_data{
+    font-size: 14px;
+}
+.article_text{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.points{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* 
+
+#form-login:target{
+    display: block;
+}
+#form-login{
+    width: 396px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    display: none;
+}
+
+
+
+.login-items{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 30px;
+    padding-bottom: 43px;
+    padding-top: 30px;
+}
+.input-login{
+    width: 336px;
+    height: 42px;
+    border-radius: 5px;
+    background: #F5F5F5;
+    border: none;
+}
+.login-span{
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.login-button{
+    width: 336px;
+    height: 42px;
+    border-radius: 5px;
+    background: #D23669;
+    
+} */

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding-top: 10px;
+    background-color: white;
+}
+body{
+    font-family: Ubuntu;
+    background: #FFFEF9;
+}
+.main{
+    margin-top: 20px;
+    
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.header_logo{
+    border-radius: 100%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.header_right{
+    gap: 20px;
+    display: flex;
+}
+.button_header{
+    border-radius: 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF00;
+    border: 1px solid #D23669;
+    width: 93px;
+    height: 30.933px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_item{
+    color: #D23669;
+    
+    font-size: 12px;
+}
+
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.add-file{
+    width: 541px;
+    height: 165px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F5F5F5;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 39px;
+    gap: 15px;
+}
+.add-span{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.home-input{
+    width: 540px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F5F5F5;
+    border: none;
+ }
+ .button-add-item{
+    width: 540px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D23669;
+    border: none;
+ }
